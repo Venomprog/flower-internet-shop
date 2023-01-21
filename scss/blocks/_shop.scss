@@ -1,7 +1,9 @@
 .shop__section {
     margin-top: 200px;
+    position: relative;
 }
 .shop__wrapper {
+    margin-bottom: 103px;
 }
 
 .shop__filter--title {
@@ -26,8 +28,7 @@
         flex-wrap: wrap;
     }
 }
-.row--maxcol3 {
-}
+
 .shop__item {
     max-width: 240px;
     font-weight: 500;
@@ -66,5 +67,4 @@
         opacity: 0.8;
     }
 }
-.add--btn {
-}
+
