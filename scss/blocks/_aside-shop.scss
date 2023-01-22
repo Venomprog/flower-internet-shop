@@ -85,3 +85,32 @@
         
     }
 }
+
+.list__tems-color{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    &.red{
+        background-color: red;
+    }
+    &.white{
+        background-color: white;
+    }
+    &.blue{
+        background-color: blue;
+    }
+    &.green{
+        background-color: green;
+    }
+    &.yellow{
+        background-color: yellow;
+    }
+}
