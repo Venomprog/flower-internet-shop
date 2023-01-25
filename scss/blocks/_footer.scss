@@ -1,0 +1,48 @@
+
+
+
+.footer__wrapper {
+    color: #FFFFFF;
+    a{
+        color: #FFFFFF;
+    }
+}
+.container {
+}
+.footer__row {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    @media (max-width:768px) {
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+}
+.footer__col {
+}
+.documents--col {
+}
+.document__list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+}
+.document__item {
+    margin-bottom: 10px;
+}
+.filter--links {
+}
+.footer-filter__list {
+}
+.list__item {
+}
+.social--links {
+}
+.title__text {
+}
+.media__list {
+}
+.media__link {
+}
+.link--block {
+}

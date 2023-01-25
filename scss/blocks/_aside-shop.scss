@@ -2,18 +2,40 @@
     position: absolute;
     top: 150px;
     left: 50px;
+    max-width: 80%;
+    @media (max-width: 1250px) {
+        position: relative;
+        top: 50px;
+        left: 0px;
+        margin: 0 auto;
+    }
     @media (max-width: 768px) {
         margin-top: 50px;
        position: relative;
        top: 0;
+       left: 0px;
+       margin-left: 85px;
+    }
+    @media (max-width: 321px) {
+       margin-left: 60px;
     }
 }
-
+.filter__wrapper{
+    @media (max-width: 1250px){
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 768px){
+        display: block;
+    }
+}
 .filter__item {
     border: 3px solid #8BA969;
     border-radius: 20px;
     max-width: 200px;
     margin-bottom: 50px;
+    
 }
 
 .filter__input {
