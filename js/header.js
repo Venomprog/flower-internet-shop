@@ -1,5 +1,7 @@
 "use strict";
 
+document.addEventListener('DOMContentLoaded', () =>{
+    
 const burgerBtn = document.querySelector('.burger__btn');
 const nav = document.querySelector('.nav');
 const navList = document.querySelectorAll('.nav__item');
@@ -26,6 +28,14 @@ function renderMenu(){
         countBurger--;
     }
 }
+
+});
+
+
+
+
+
+
 
 
 
