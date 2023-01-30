@@ -1,0 +1,137 @@
+.cart__popup {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    @media (max-width:768px) {
+        max-width: 90%;
+    }
+}
+.popup__wrapper {
+    padding: 20px;
+    position: relative;
+}
+.popup__close-btn {
+    position: absolute;
+    top: 25;
+    right: 25px;
+    cursor: pointer;
+    span{
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        display: block;
+    }
+    .left{
+        rotate: 45deg;
+    }
+    .right{
+        rotate: 135deg;
+        margin-top: -3px;
+    }
+}
+.cart__list {
+    margin-top: 20px;
+}
+.cart__item {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.cart-item__img {
+    margin-left: 30px;
+    img{
+        max-width: 130px;
+        @media (max-width:768px) {
+            max-width: 40px;
+        }
+    }
+    @media (max-width:768px) {
+        margin-left: 15px;
+    }
+}
+.cart-item__name {
+    margin-left: 34px;
+    font-weight: 400;
+    font-size: 26.1357px;
+    line-height: 144.52%;
+    min-width: 250px;
+    @media (max-width:768px) {
+        margin-left: 14px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+.cart-item__price {
+    position: absolute;
+    right: 25px;
+    font-weight: 500;
+    font-size: 26.1357px;
+    line-height: 26px;  
+    color: #8BA969;
+    @media (max-width:768px) {
+        margin-left: 40px;
+        font-size: 16px;
+    }
+}
+.cart__popup--footer {
+    margin: 0 auto;
+    max-width: 350px;
+    @media (max-width:768px) {
+        max-width: 90%;
+    }
+}
+.popup-footer__text {
+    display: flex;
+    text-align: center;
+    font-size: 26.1357px;
+    line-height: 144.52%;
+    @media (max-width:768px) {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+}
+.items--sum {
+    margin-left: 30px;
+    color: #8BA969;
+    font-weight: 500;
+}
+.popup-footer__btn {
+    margin-top: 21px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17.1315px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 26px 76px;
+    border-radius: 5px;
+    background: #8BA969;
+    box-shadow: 0px 1.76791px 7.95558px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+    &:hover{
+        opacity: 0.7;
+    }
+    @media (max-width:768px) {
+        text-align: center;
+        padding: 16px 6px;
+    }
+}
+
+
+
+.cart-item__delete{
+    cursor: pointer;
+    span{
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        display: block;
+    }
+    .left{
+        rotate: 45deg;
+    }
+    .right{
+        rotate: 135deg;
+        margin-top: -3px;
+    }
+}
