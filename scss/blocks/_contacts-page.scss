@@ -23,7 +23,7 @@
 }
 .contacts__item {
     
-    width: 400px;
+    width: 450px;
     &:nth-child(2){
         margin-left: 150px;
     }    
@@ -43,6 +43,7 @@ color: #000000;
     align-items: center;
     border: 1px solid #D7F8B1;
     border-radius: 29px;
+    padding-right: 25px;
 }
 .item__row--img {
     left: 0;
