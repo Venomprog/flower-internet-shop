@@ -57,3 +57,41 @@
 .order--payment{
     margin-top: 40px;
 }
+
+
+
+// FOrm
+
+.form__wrapper {
+    padding-bottom: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+    .form__button{
+        text-align: center;
+        margin-top: 30px;
+        .form--btn{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 144.52%;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 20px 40px;
+            background: #8BA969;
+            border-radius: 16px;
+        }
+    }
+    
+}
+.form__row {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.form__input--item {
+}
+.input--form {
+    border: 2px solid #8BA969;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 300px;
+}
