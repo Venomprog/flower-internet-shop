@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Оформление заказа</title>
+</head>
+<body>
+    <header class="header container-fluid">
+        <div class="header__wrapper container">
+            <div class="contacts__link-list">
+                <div class="contact__item link--map">
+                    <img src="./img/map-mark.svg" alt="Иконка карты">
+                    <a href="https://yandex.ru/profile/-/CCUzuYCcdA" target="_blank">Казань, ул. Восстания, 67A<br>
+                        Ежедневно с 9.00 до 20.00</a>
+                </div>
+                <div class="logo">
+                    <img src="./img/цветник.JPG" alt="Логотип">
+                </div>
+                <div class="contact__item link--phone">
+                    <img src="./img/phone-mark.svg" alt="Иконка карты">
+                    <a href="tel:+79600484019" target="_blank">+7(960)-048-40-19</a>
+                </div>
+            </div>
+            <div class="header__nav">
+                <div class="burger__btn">
+                    <div class="top--stick stick"></div>
+                    <div class="btm--stick stick"></div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="payment.html">Оплата</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="delivery.html">Доставка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="cart">
+                    <div class="sum--number">
+                        2590р
+                    </div>
+                    <img src="./img/cart-icon.svg" alt="Иконка корзины товаров цветочного магазина">
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <section class="order__section container-fluid">
+            <div class="order__content container">
+                <div class="order__content--title">
+                    <p>ОФОРМЛЕНИЕ ЗАКАЗА</p>
+                </div>
+                <div class="order-cart-list">
+                    <div class="cart__list">
+                        <div class="cart__item">
+                            <div class="cart-item__delete">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </div>
+                            <div class="cart-item__img">
+                                <img src="./img/item.png" alt="Колбаса мамаевская">
+                            </div>
+                            <div class="cart-item__name">
+                                <p>15 кустовых роз</p>
+                            </div>
+                            <div class="cart-item__price">
+                                10500р
+                            </div>
+                        </div>
+                        <div class="cart__item">
+                            <div class="cart-item__delete">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </div>
+                            <div class="cart-item__img">
+                                <img src="./img/item.png" alt="Колбаса мамаевская">
+                            </div>
+                            <div class="cart-item__name">
+                                <p>15 кустовых роз</p>
+                            </div>
+                            <div class="cart-item__price">
+                                10500р
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart__popup--footer">
+                    <div class="popup-footer__text">Сумма товаров: <div class="items--sum">10500р</div></div>
+                </div>
+                <div class="order--delivery">
+                    <div class="delivery--title">
+                        <p>Доставка</p>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn" type="radio" name="delivery" id="center">
+                    <label for="center">Бесплатно по центру</label>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn" type="radio"  id="rayon" name="delivery">
+                    <label for="rayon">Отдаленный район: 400 ₽</label>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn" type="radio" id="samov" name="delivery">
+                    <label for="samov">Самовывоз</label>
+                    </div>
+                </div>
+                <div class="order--delivery order--payment">
+                    <div class="delivery--title">
+                        <p>Способ оплаты</p>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn" type="radio" name="payment" id="transit">
+                    <label for="transit">На карту Сбербанка</label>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn" type="radio"  id="rayon" name="courier">
+                    <label for="courier">По карте курьеру</label>
+                    </div>
+                    <div class="inpit--item">
+                        <input class="radio--order--btn pay-on-website" type="radio" id="web-site" name="payment">
+                    <label for="web-site">Оплата на сайте</label>
+                    </div>
+                </div>
+                <div class="form__wrapper">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div class="footer__wrapper container">
+            <div class="footer__row">
+                <div class="footer__col documents--col">
+                    <ul class="document__list">
+                        <li class="document__item"><a href="./img/cart-icon.svg" download="cart">Договор оферты</a> </li>
+                        <li class="document__item"><a href="./img/cart-icon.svg" download="cart">Политика конфиденциальности</a> </li>
+                        <li class="document__item"><a href="./img/cart-icon.svg" download="cart">Обработка персональных данных</a> </li>
+                    </ul>
+                </div>
+                <div class="footer__col filter--links">
+                    <ul class="footer-filter__list">
+                        <li class="list__item filter--links">
+                            <a href="#">День рождения</a>
+                        </li>
+                        <li class="list__item filter--links">
+                            <a href="#">14 февраля</a>
+                        </li>
+                        <li class="list__item filter--links">
+                            <a href="#">23 февраля</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col filter--links">
+                    <ul class="footer-filter__list">
+                        <li class="list__item filter--links">
+                            <a href="#">8 марта</a>
+                        </li>
+                        <li class="list__item filter--links">
+                            <a href="#">День учителя</a>
+                        </li>
+                        <li class="list__item filter--links">
+                            <a href="#">День матери</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col social--links">
+                    <div class="title__text">
+                        <h4>Мы в соц.сетях</h4>
+                    </div>
+                    <div class="media__list">
+                        <a href="#" class="media__link link--block">
+                            <img src="./img/watsapp.svg" alt="Иконка ватаспа для заказа букета">
+                        </a>
+                        <a href="#" class="media__link link--block">
+                            <img src="./img/vk.png" alt="Иконка vkontakte для заказа букета">
+                        </a>
+                        <a href="#" class="media__link link--block">
+                            <img src="./img/inst.png" alt="Иконка instagram для заказа букета">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/header.js"></script>
+</body>
+</html>
