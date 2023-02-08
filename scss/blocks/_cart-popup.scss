@@ -59,15 +59,15 @@
         margin-left: 14px;
         font-weight: 400;
         font-size: 14px;
+        min-width: 90px;
     }
 }
 .cart-item__price {
-    position: absolute;
-    right: 25px;
     font-weight: 500;
     font-size: 26.1357px;
     line-height: 26px;  
     color: #8BA969;
+    margin-left: 40px;
     @media (max-width:768px) {
         margin-left: 40px;
         font-size: 16px;
